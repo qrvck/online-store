@@ -1,0 +1,26 @@
+.header-topline {
+  background-color: #f0f0f0;
+}
+
+.header-topline__container {
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.header-topline__time,
+.header-topline__place,
+.header-topline__number {
+  margin: 0;
+}
+
+.header-topline__place {
+  justify-self: center;
+}
+
+.header-topline__number {
+  justify-self: right;
+}
